@@ -4,7 +4,7 @@ export const Img = styled.img`
   width:inherit;
   height:250px;
   object-position: center center;
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
 `
 
