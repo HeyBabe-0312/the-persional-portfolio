@@ -39,6 +39,39 @@ export const TitleContent = styled.div`
   color: #9cc9e3;
 `;
 
+export const ButtonB = styled.div`
+  width: ${({ alt }) => alt ? '150px' : '262px'};
+  height: ${({ alt }) => alt ? '52px' : '64px'};
+  border-radius: 30px;
+  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 0 830px'};
+  color: #fff;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: ${({ alt }) => alt ? '150px' : '184px'};
+    height: ${({ alt }) => alt ? '52px' : '48px'};
+    font-size: ${({ alt }) => alt ? '20px' : '16px'};
+    margin-left: ${({ alt }) => alt ? '830px' : '0px'};
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    margin-left: ${({ alt }) => alt ? '830px' : '0px'};
+  }
+`
+
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -106,8 +139,13 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+&:hover{
+  color: lightblue;
+  cursor: pointer;
+}
 `

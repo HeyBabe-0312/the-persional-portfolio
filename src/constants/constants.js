@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: 'Adminsite PBL5',
-    description: 'This project is a website for booking movie tickets online. My part is to create an admin website. It was developed with JavaScript, css, Html. The feature I have invested most in is a revenue chart that displays daily, weekly, monthly and yearly data. Here, the administrator can manage movie management, account management, cast management, transaction management, and more.',
-    descriptionJP: "このプロジェクトはオンラインで映画のチケットを予約するウェブサイトです。 私の部分は管理者のウェブサイトを作ることです。これは「JavaScript,css,Html」で開発しました。 私が最も投資した機能は、日、週、月、年ごとのデータを表示する収益チャートです。 ここで、管理者は映画の管理、アカウント管理、キャスト管理、取引管理などについて管理することができます。",
-    descriptionVN: 'Dự án này là một trang web đặt vé xem phim trực tuyến. Phần của tôi là tạo một trang web admin quản lý hệ thống. Được phát triển với ngôn ngữ JavaScript, Css, Html. Tính năng mà tôi đã đầu tư nhiều nhất là biểu đồ doanh thu hiển thị dữ liệu hàng ngày, hàng tuần, hàng tháng và hàng năm. Tại đây, quản trị viên có thể quản lý quản lý phim, quản lý tài khoản, quản lý dàn diễn viên, quản lý giao dịch, v.v.',
-      image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2F1.png?alt=media&token=6a7080ce-4b79-4dff-af77-1a305022cb42',
-      tags: ['MySQL', 'Express', 'React', 'Node'],
+    title: 'Modern Blog',
+    description: "The Modern Blog App is the best GraphQL Blog Application with featured and recent posts, categories. full markdown articles, author information, comments, and much more. And what's best of all is that you or your clients can manage the blog from a dedicated Content Management System. Built with the newest technologies such as React JS, NextJS, Tailwind CSS, GraphQL, and GraphCMS.",
+    descriptionJP: "最新のブログアプリは、注目の投稿や最近の投稿、カテゴリを備えた最高の「GraphQL」ブログアプリケーションです。完全な値下げ記事、著者情報、コメント、その他多数。そして何よりも優れているのは、あなたやあなたのクライアントが専用のコンテンツ管理システムからブログを管理できることです。 「ReactJS、NextJS、Tailwind CSS、GraphQL、GraphCMS」などの最新テクノロジーで構築されています。",
+    descriptionVN: 'Ứng dụng Blog Hiện đại là Ứng dụng Blog GraphQL tốt nhất với các bài đăng, danh mục nổi bật và gần đây. đầy đủ các bài báo đánh dấu, thông tin tác giả, bình luận, và nhiều hơn nữa. Và điều tốt nhất là bạn hoặc khách hàng của bạn có thể quản lý blog từ Hệ thống quản lý nội dung chuyên dụng. Được xây dựng với các công nghệ mới nhất như React JS, NextJS, Tailwind CSS, GraphQL và GraphCMS.',
+      image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2FmainBlogApp.png?alt=media&token=fd88eaa2-e894-491f-8d12-1e3b51150a7d',
+      tags: ['Next', 'React', 'GraphQL', 'Tailwind'],
     source: 'https://google.com',
-    visit: 'https://pbl5-adminsite.netlify.app/',
+    visit: 'https://modern-blog-demo-app.vercel.app/',
     id: 0,
   },
   {
@@ -64,6 +64,17 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://modern-real-estate-demo-app.vercel.app/',
     id: 5,
+  },
+  {
+    title: 'Adminsite PBL5',
+    description: 'This project is a website for booking movie tickets online. My part is to create an admin website. It was developed with JavaScript, css, Html. The feature I have invested most in is a revenue chart that displays daily, weekly, monthly and yearly data. Here, the administrator can manage movie management, account management, cast management, transaction management, and more.',
+    descriptionJP: "このプロジェクトはオンラインで映画のチケットを予約するウェブサイトです。 私の部分は管理者のウェブサイトを作ることです。これは「JavaScript,css,Html」で開発しました。 私が最も投資した機能は、日、週、月、年ごとのデータを表示する収益チャートです。 ここで、管理者は映画の管理、アカウント管理、キャスト管理、取引管理などについて管理することができます。",
+    descriptionVN: 'Dự án này là một trang web đặt vé xem phim trực tuyến. Phần của tôi là tạo một trang web admin quản lý hệ thống. Được phát triển với ngôn ngữ JavaScript, Css, Html. Tính năng mà tôi đã đầu tư nhiều nhất là biểu đồ doanh thu hiển thị dữ liệu hàng ngày, hàng tuần, hàng tháng và hàng năm. Tại đây, quản trị viên có thể quản lý quản lý phim, quản lý tài khoản, quản lý dàn diễn viên, quản lý giao dịch, v.v.',
+      image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2F1.png?alt=media&token=6a7080ce-4b79-4dff-af77-1a305022cb42',
+      tags: ['MySQL', 'Express', 'React', 'Node'],
+    source: 'https://google.com',
+    visit: 'https://pbl5-adminsite.netlify.app/',
+    id: 6,
   },
 ];
 
