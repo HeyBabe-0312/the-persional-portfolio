@@ -19,10 +19,10 @@ const Projects = () => {
             <Hr />
           </TitleContent>
           {typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?
-          <CardInfo>{project.description.length > 150 ? project.description.substring(0,150)+'...':project.description}</CardInfo>
+          <CardInfo>{project.description}</CardInfo>
           :localStorage.getItem('lang')==='jpn'?
-          <CardInfo>{project.descriptionJP.length > 130 ? project.descriptionJP.substring(0,130)+'...':project.descriptionJP}</CardInfo>
-          :<CardInfo>{project.descriptionVN.length > 150 ? project.descriptionVN.substring(0,150)+'...':project.descriptionVN}</CardInfo>
+          <CardInfo>{project.descriptionJP}</CardInfo>
+          :<CardInfo>{project.descriptionVN}</CardInfo>
           :null}
           <div>
             <TitleContent>{typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?'STACK':localStorage.getItem('lang')==='jpn'?'スタック':'STACK':null}</TitleContent>
@@ -46,10 +46,10 @@ const Projects = () => {
             <Hr />
           </TitleContent>
           {typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?
-          <CardInfo>{project.description.length > 150 ? project.description.substring(0,150)+'...':project.description}</CardInfo>
+          <CardInfo>{project.description}</CardInfo>
           :localStorage.getItem('lang')==='jpn'?
-          <CardInfo>{project.descriptionJP.length > 130 ? project.descriptionJP.substring(0,130)+'...':project.descriptionJP}</CardInfo>
-          :<CardInfo>{project.descriptionVN.length > 150 ? project.descriptionVN.substring(0,150)+'...':project.descriptionVN}</CardInfo>
+          <CardInfo>{project.descriptionJP}</CardInfo>
+          :<CardInfo>{project.descriptionVN}</CardInfo>
           :null}
           <div>
             <TitleContent>{typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?'STACK':localStorage.getItem('lang')==='jpn'?'スタック':'STACK':null}</TitleContent>

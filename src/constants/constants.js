@@ -58,7 +58,7 @@ export const projects = [
     title: 'Real Estate',
     description: "The Real Estate Application use ReactJS and NextJS. With rental homes and for-sale properties, advanced property filtering, property details page with an image carousel,...",
     descriptionJP: '不動産アプリケーションは「ReactJS」と「NextJS」を使用します。賃貸住宅と売り物件、高度な物件フィルタリング、画像カルーセル付きの物件詳細ページ、...',
-    descriptionVN: 'Ứng dụng Bất động sản sử dụng ReactJS và NextJS. Với nhà cho thuê và tài sản bán, tính năng lọc tài sản nâng cao, trang chi tiết tài sản với băng chuyền hình ảnh, ...',
+    descriptionVN: 'Ứng dụng Bất động sản sử dụng ReactJS và NextJS. Với nhà cho thuê và tài sản bán, tính năng tìm kiếm nâng cao, trang chi tiết tài sản với băng chuyền hình ảnh, ...',
     image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2F6.png?alt=media&token=ce0da9c9-e052-4907-ac68-b61407336f78',
     tags: ['React', 'Next', 'RapidAPI'],
     source: 'https://google.com',
