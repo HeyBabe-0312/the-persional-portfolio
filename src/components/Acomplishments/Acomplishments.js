@@ -4,7 +4,7 @@ import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 25+'+', text: 'Open Source Projects.', textJP: 'オープンソースプロジェクト。', textVN: 'Dự án nguồn mở.'},
+  { number: 30+'+', text: 'Open Source Projects.', textJP: 'オープンソースプロジェクト。', textVN: 'Dự án nguồn mở.'},
   { number: 2021, text: 'Web Development based on Scrum course.', textJP: 'スクラムコースに基づくWeb開発。', textVN: 'Phát triển Web dựa trên khóa học Scrum.'},
   { number: 2021, text: 'Complete 6 Course on Viblo Learning.', textJP: '「Viblo」ラーニングで6つのコースを完了します。', textVN: 'Hoàn thành 6 khóa học trên Viblo Learning.'},
   { number: 2020, text: 'Complete 5 Course on Codelearn.', textJP: '「Codelearn」で5つのコースを完了します。', textVN: 'Hoàn thành 5 khóa học trên Codelearn.'}

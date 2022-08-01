@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillFacebook, AiFillYoutube } from 'react-icons/ai';
+import { AiFillGithub, AiFillFacebook, AiFillYoutube, AiFillTwitterCircle } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { VN, US, JP  } from 'country-flag-icons/react/3x2'
 
@@ -80,11 +80,11 @@ const Header = () =>  (
       <SocialIcons href='https://github.com/HeyBabe-0312' target='_blank'>
         <AiFillGithub size="3rem"/>
       </SocialIcons>
+      <SocialIcons href='https://twitter.com/HoMinHiu' target='_blank'>
+        <AiFillTwitterCircle size="3rem"/>
+      </SocialIcons>
       <SocialIcons href='https://www.facebook.com/minhiuuu' target='_blank'>
         <AiFillFacebook size="3rem"/>
-      </SocialIcons>
-      <SocialIcons href='https://www.youtube.com/channel/UCyBl91KCxwPNGZ08CZJU8qQ' target='_blank'>
-        <AiFillYoutube size="3rem"/>
       </SocialIcons>
       <SocialIcons>
       {typeof window !== 'undefined' ? 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillFacebook, AiFillYoutube } from 'react-icons/ai';
+import { AiFillGithub, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -24,15 +24,15 @@ const Footer = () => {
           <Slogan>{typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?'Social networking site links':localStorage.getItem('lang')==='jpn'?'ソーシャルネットワーキングサイトのリンク':'Liên kết trang mạng xã hội':null}</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com/HeyBabe-0312' target='_blank'>
+        <SocialIcons href='https://github.com/HeyBabe-0312' target='_blank'>
           <AiFillGithub size="3rem"/>
-          </SocialIcons>
-          <SocialIcons href='https://www.facebook.com/minhiuuu' target='_blank'>
-            <AiFillFacebook size="3rem"/>
-          </SocialIcons>
-          <SocialIcons href='https://www.youtube.com/channel/UCyBl91KCxwPNGZ08CZJU8qQ' target='_blank'>
-            <AiFillYoutube size="3rem"/>
-          </SocialIcons>
+        </SocialIcons>
+        <SocialIcons href='https://twitter.com/HoMinHiu' target='_blank'>
+          <AiFillTwitterCircle size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href='https://www.facebook.com/minhiuuu' target='_blank'>
+          <AiFillFacebook size="3rem"/>
+        </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
