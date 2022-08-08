@@ -33,14 +33,14 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Budget Tracker',
-    description: "Complex Expense Budget Tracker. Build it on React & JavaScript. Some of them are State Management in React, Context API, Local Storage, Material UI, and create a scalable React folder structure. But most importantly, you can use voice capabilities using Speechly.",
-    descriptionJP: '複雑な経費予算トラッカー。 「ReactJS＆JavaScript」でビルドします。それらのいくつかは、「React」の状態管理、コンテキストAPI、ローカルストレージ、マテリアルUIであり、スケーラブルな「React」フォルダー構造を作成します。しかし、最も重要なことは、「Speechly」を使用して音声機能を使用できることです。',
-    descriptionVN: 'Trình quản lí chi phí Ngân sách tiêu dùng phức tạp. Được xây dựng dựa trên ReactJS & JavaScript. Một số trong số đó là quản lí trạng thái trong React, API ngữ cảnh, LocalStorage, giao diện người dùng vật liệu và tạo cấu trúc thư mục React có thể mở rộng. Nhưng quan trọng nhất, bạn có thể sử dụng khả năng thoại bằng Speechly.',
-    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2FmainSpeech.png?alt=media&token=d30c3907-cb7e-4381-b1cb-fbd3354e4374',
-    tags: ['React', 'Speechly', 'Chart'],
+    title: 'Medical Chat',
+    description: "Realtime Chat Messaging App with Authentication & SMS Notifications. Using ReactJS, NodeJS, Stream API, Twilio,... With Direct and Group Chats, emojis & Reactions, Built-in Gif support, the ability to edit & delete messages, specialized commands, and much more.",
+    descriptionJP: '認証とSMS通知を備えたリアルタイムチャットメッセージングアプリ。「ReactJS、NodeJS、Stream API、Twilio」などを使用して、ダイレクト チャットとグループ チャット、絵文字とリアクション、組み込みの「Gif」サポート、メッセージの編集と削除、特殊なコマンドなどを使用できます。',
+    descriptionVN: 'Ứng dụng nhắn tin trò chuyện thời gian thực với xác thực và thông báo SMS. Sử dụng ReactJS, NodeJS, Stream API, Twilio, ... Với tính năng Trò chuyện trực tiếp và nhóm, biểu tượng cảm xúc & phản ứng, hỗ trợ Gif tích hợp, khả năng chỉnh sửa và xóa tin nhắn, câu lệnh chuyên biệt, v.v.',
+    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2Floginmess.png?alt=media&token=07ef86e6-ef8a-4ec7-a4d6-b29a3e187bfb',
+    tags: ['React', 'Node', 'Twilio','StreamAPI'],
     source: 'https://google.com',
-    visit: 'https://budget-tracker-demo-app.vercel.app/',
+    visit: 'https://medical-chat-demo-app.vercel.app/',
     id: 3,
   },
   {
@@ -87,6 +87,17 @@ export const projects = [
     visit: 'https://cryptocurrency-demo-app.vercel.app/',
     id: 7,
   },
+  {
+    title: 'Budget Tracker',
+    description: "Complex Expense Budget Tracker. Build it on React & JavaScript. Some of them are State Management in React, Context API, Local Storage, Material UI, and create a scalable React folder structure. But most importantly, you can use voice capabilities using Speechly.",
+    descriptionJP: '複雑な経費予算トラッカー。 「ReactJS＆JavaScript」でビルドします。それらのいくつかは、「React」の状態管理、コンテキストAPI、ローカルストレージ、マテリアルUIであり、スケーラブルな「React」フォルダー構造を作成します。しかし、最も重要なことは、「Speechly」を使用して音声機能を使用できることです。',
+    descriptionVN: 'Trình quản lí chi phí Ngân sách tiêu dùng phức tạp. Được xây dựng dựa trên ReactJS & JavaScript. Một số trong số đó là quản lí trạng thái trong React, API ngữ cảnh, LocalStorage, giao diện người dùng vật liệu và tạo cấu trúc thư mục React có thể mở rộng. Nhưng quan trọng nhất, bạn có thể sử dụng khả năng thoại bằng Speechly.',
+    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2FmainSpeech.png?alt=media&token=d30c3907-cb7e-4381-b1cb-fbd3354e4374',
+    tags: ['React', 'Speechly', 'Chart'],
+    source: 'https://google.com',
+    visit: 'https://budget-tracker-demo-app.vercel.app/',
+    id: 8,
+  }
 ];
 
 export const TimeLineData = [
