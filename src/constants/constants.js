@@ -97,6 +97,17 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://budget-tracker-demo-app.vercel.app/',
     id: 8,
+  },
+  {
+    title: 'Video Chat',
+    description: "The React Video Chat Application. Built it on ReactJS, NodeJS. Using WebRTC to be able to make realtime video calls. Used to chat, exchange work between two people easily and quickly. This is my self-study project.",
+    descriptionJP: 'リアルタイム ビデオ チャット アプリケーション。「ReactJS、NodeJS」で開発しました。「WebRTC」を使用して、リアルタイムのビデオ通話を行うことができます。チャットに使用され、2 人で簡単かつ迅速に作業を交換します。これは私の独学プロジェクトです。',
+    descriptionVN: 'Ứng dụng trò chuyện video thời gian thực. Được xây dựng trên ReactJS, NodeJS. Sử dụng WebRTC để có thể thực hiện các cuộc gọi điện video theo thời gian thực. Dùng để trò chuyện, trao đổi công việc giữa hai người một cách dễ dàng và nhanh chóng. Đây là dự án tự học tập của tôi.',
+    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Image%2Fstreamvideo.png?alt=media&token=59a96512-2756-444e-919c-93c85c5a4bc5',
+    tags: ['React', 'Node', 'WebRTC'],
+    source: 'https://google.com',
+    visit: 'https://video-chat-demo-app.vercel.app/',
+    id: 9,
   }
 ];
 
