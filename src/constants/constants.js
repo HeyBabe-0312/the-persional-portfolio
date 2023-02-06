@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: 'DanaTravel',
+    description: "DanaTravel is a travel website dedicated to the city of Da Nang, Vietnam. The project was implemented by 3 members in 2 months. Websites can fit many screen sizes on mobile phones. Including features of tourist location information, search for places, reviews, view location of places on the map,... Especially, the website is integrated with AI image recognition so that users can You can search for location information in a variety of ways and quickly. Built with latest technologies like React JS, Node JS, SCSS, Google Maps API, AI.",
+    descriptionJP: "「DanaTravel」 は、ベトナムのダナン市に特化した旅行サイトです。このプロジェクトは、2 か月で 3 人のメンバーによって実施されました。 Web サイトは、携帯電話の多くの画面サイズに適合します。観光地情報の機能をはじめ、場所の検索、レビュー、地図上での場所の表示など...特に、ウェブサイトはAI画像認識と統合されているため、ユーザーはさまざまな方法で場所情報を検索したり、素早く。 React JS、Node JS、SCSS、Google Maps API、AI などの最新テクノロジーで構築されています。",
+    descriptionVN: 'DanaTravel là một trang web du lịch dành riêng cho thành phố Đà Nẵng, Việt Nam. Dự án được thực hiện bởi 3 thành viên trong 2 tháng. Trang web có thể phù hợp với nhiều kích thước màn hình trên điện thoại di động. Bao gồm các tính năng thông tin địa điểm du lịch, tìm kiếm địa điểm, đánh giá, xem vị trí địa điểm trên bản đồ,... Đặc biệt, trang web được tích hợp nhận diện hình ảnh bằng AI để người dùng có thể tìm kiếm thông tin địa điểm một cách đa dạng và nhanh chóng. Được xây dựng với các công nghệ mới nhất như React JS, Node JS, SCSS, Google Maps API, AI.',
+      image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2FScreenshot%202023-02-06%20193320.png?alt=media&token=a2e10aac-3fe9-4731-8535-189ae355734b',
+      tags: ['Node', 'React', 'AI', 'SCSS'],
+    source: 'https://google.com',
+    visit: 'http://danatravel.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Modern Blog',
     description: "The Modern Blog App is the best GraphQL Blog Application with featured and recent posts, categories. full markdown articles, author information, comments, and much more. And what's best of all is that you or your clients can manage the blog from a dedicated Content Management System. Built with the newest technologies such as React JS, NextJS, Tailwind CSS, GraphQL, and GraphCMS.",
     descriptionJP: "最新のブログアプリは、注目の投稿や最近の投稿、カテゴリを備えた最高の「GraphQL」ブログアプリケーションです。完全な値下げ記事、著者情報、コメント、その他多数。そして何よりも優れているのは、あなたやあなたのクライアントが専用のコンテンツ管理システムからブログを管理できることです。 「ReactJS、NextJS、Tailwind CSS、GraphQL、GraphCMS」などの最新テクノロジーで構築されています。",
@@ -8,7 +19,7 @@ export const projects = [
       tags: ['Next', 'React', 'GraphQL', 'Tailwind'],
     source: 'https://google.com',
     visit: 'https://modern-blog-demo-app.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'E-Commerce',
@@ -19,18 +30,18 @@ export const projects = [
     tags: ['React', 'Commerce'],
     source: 'https://google.com',
     visit: 'https://e-commerce-demo-app.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Travel Advisor',
     description: "This Travel Advisor application helps users to know the restaurants, hotels, attractions in the surrounding area. By integrating Maps using Geolocation, Google Maps API & Google Places API, fetching location-based API data, filtering data...",
     descriptionJP: 'このトリップアドバイザーアプリケーションは、ユーザーが周辺地域のレストラン、ホテル、アトラクションを知るのに役立ちます。 「Geolocation、Google Maps API、Google Places API」を使用してマップを統合し、位置ベースのAPIデータを取得し、データをフィルタリングします...',
     descriptionVN: 'Ứng dụng Cố vấn Du lịch này giúp người dùng biết được các nhà hàng, khách sạn,địa điểm thu hút ở xung quanh. Bằng cách tích hợp Bản đồ sử dụng Vị trí địa lý, API Google Maps & API Google Địa điểm, tìm nạp dữ liệu API dựa trên vị trí, lọc dữ liệu ...',  
-    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2F3.png?alt=media&token=2bc0bb15-446b-47c3-af57-18036b317490',
+    image: 'https://firebasestorage.googleapis.com/v0/b/musicupload-7dde0.appspot.com/o/Persional%2FScreenshot%202023-02-06%20192901.png?alt=media&token=88d5eb75-a941-4e92-880f-e137f253373a',
       tags: ['React', 'RapidAPI', 'GgMaps API'],
     source: 'https://google.com',
     visit: 'https://travel-demo-app.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Medical Chat',
@@ -41,7 +52,7 @@ export const projects = [
     tags: ['React', 'Node', 'Twilio','StreamAPI'],
     source: 'https://google.com',
     visit: 'https://medical-chat-demo-app.vercel.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Memories App',
@@ -52,7 +63,7 @@ export const projects = [
     tags: ['MERN', 'GgOauth', 'Redux', 'JWT'],
     source: 'https://google.com',
     visit: 'https://memories-demo-app.vercel.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Real Estate',
@@ -63,7 +74,7 @@ export const projects = [
     tags: ['React', 'Next', 'RapidAPI'],
     source: 'https://google.com',
     visit: 'https://modern-real-estate-demo-app.vercel.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Adminsite PBL5',
@@ -74,7 +85,7 @@ export const projects = [
       tags: ['MySQL', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://pbl5-adminsite.netlify.app/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Cryptocurrency',
@@ -85,7 +96,7 @@ export const projects = [
     tags: ['React', 'Ant', 'Chart', 'RapidAPI'],
     source: 'https://google.com',
     visit: 'https://cryptocurrency-demo-app.vercel.app/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Budget Tracker',
@@ -96,7 +107,7 @@ export const projects = [
     tags: ['React', 'Speechly', 'Chart'],
     source: 'https://google.com',
     visit: 'https://budget-tracker-demo-app.vercel.app/',
-    id: 8,
+    id: 9,
   },
   {
     title: 'Video Chat',
@@ -107,7 +118,7 @@ export const projects = [
     tags: ['React', 'Node', 'WebRTC'],
     source: 'https://google.com',
     visit: 'https://video-chat-demo-app.vercel.app/',
-    id: 9,
+    id: 10,
   }
 ];
 
