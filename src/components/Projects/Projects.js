@@ -51,7 +51,7 @@ const Projects = () => {
           <CardInfo>{project.descriptionJP}</CardInfo>
           :<CardInfo>{project.descriptionVN}</CardInfo>
           :null}
-          <div style={{marginTop: "10px"}}>
+          <div>
             <TitleContent>{typeof window !== 'undefined' ? localStorage.getItem('lang')==='eng'?'STACK':localStorage.getItem('lang')==='jpn'?'スタック':'STACK':null}</TitleContent>
             <TagList>
               {project.tags.map((tag,i)=>(

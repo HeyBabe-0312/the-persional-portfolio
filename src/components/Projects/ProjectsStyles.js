@@ -37,6 +37,7 @@ export const TitleContent = styled.div`
   z-index: 20;
   width: 100%;
   color: #9cc9e3;
+  margin-top: 10px;
 `;
 
 export const ButtonB = styled.div`
